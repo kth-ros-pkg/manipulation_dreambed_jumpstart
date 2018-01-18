@@ -3,7 +3,7 @@
 ## What is the dreambed about?
 
 It is a software suite for grasping planning, validation, and execution. 
-It was developed by Joshua Haustein from KTH Robotics Perception and Learning Laboratory, in the context of the European Project RobDREAM.
+It was developed by Joshua Haustein, a PhD student at KTH Robotics Perception and Learning Laboratory, in the context of the European Project RobDREAM.
 
 
 ## What can you find in this repository?
