@@ -13,10 +13,9 @@ export NO_COLOR='\033[0m'
 export IMAGE_NAME=dreambed_img
 export CONTAINER_NAME=robdream_container
 export USE_NVIDIA_DOCKER=false
-export LOCAL_FOLDER=/home/$USER/robdream_docker/
-export CONTAINER_FOLDER=/home/robdream/shared_folder
 export CONTAINER_USER=robdream
-
+export CONTAINER_FOLDER=/home/$CONTAINER_USER/shared_folder
+export LOCAL_FOLDER=/home/$USER/robdream_docker/
 
 export DOCKER_RUN_ARGS="-it --privileged \
 						-v $LOCAL_FOLDER:$CONTAINER_FOLDER:rw \
