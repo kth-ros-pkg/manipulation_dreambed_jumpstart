@@ -13,4 +13,4 @@ We particularly recommend using *ROS Indigo Igloo and Ubuntu 14.04 64bits*.
 
 
 ## Next steps
-We suggest that you clone this repo, and then check our [Wiki](https://github.com/kth-ros-pkg/manipulation_dreambed_jumpstart/wiki), in which you'll have plenty of information on how to setup your environment for running the dreambed.
+We suggest that you clone this repo, and then check our [Wiki](https://github.com/kth-ros-pkg/manipulation_dreambed_jumpstart/wiki), in which you'll find plenty of information on how to setup your environment for running the dreambed.
