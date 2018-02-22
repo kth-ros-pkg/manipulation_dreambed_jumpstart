@@ -17,7 +17,7 @@ export CONTAINER_USER=robdream
 export CONTAINER_FOLDER=/home/$CONTAINER_USER/shared_folder
 export LOCAL_FOLDER=/home/$USER/robdream_docker/
 
-export DOCKER_RUN_ARGS="-it --privileged \
+export DOCKER_CREATE_ARGS="-it --privileged \
 						-v $LOCAL_FOLDER:$CONTAINER_FOLDER:rw \
 						-v /tmp/.X11-unix:/tmp/.X11-unix:ro \
 						-e DISPLAY=:0 \

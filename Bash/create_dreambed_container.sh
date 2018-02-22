@@ -18,7 +18,7 @@ if [ ! -d "$LOCAL_FOLDER" ]; then
 fi
 
 if [ "$USE_NVIDIA_DOCKER" = true ] ; then
-	sudo nvidia-docker run $DOCKER_RUN_ARGS
+	sudo docker run --runtime=nvidia $DOCKER_CREATE_ARGS
 else
-	sudo docker run $DOCKER_RUN_ARGS
+	sudo docker run $DOCKER_CREATE_ARGS
 fi

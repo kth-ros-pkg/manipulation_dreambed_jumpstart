@@ -9,8 +9,5 @@ source $DREAMBED_DOCKER_SCRIPTS_DIR/Bash/common_vars.sh
 
 xhost +
 
-if [ "$USE_NVIDIA_DOCKER" = true ] ; then
-    sudo nvidia-docker start $CONTAINER_NAME
-else
-    sudo docker start $CONTAINER_NAME
-fi
+
+sudo docker start $CONTAINER_NAME

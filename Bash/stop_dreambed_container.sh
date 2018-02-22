@@ -7,8 +7,5 @@
 
 source $DREAMBED_DOCKER_SCRIPTS_DIR/Bash/common_vars.sh
 
-if [ "$USE_NVIDIA_DOCKER" = true ] ; then
-    sudo nvidia-docker stop $CONTAINER_NAME
-else
-    sudo docker stop $CONTAINER_NAME
-fi
+
+sudo docker stop $CONTAINER_NAME
