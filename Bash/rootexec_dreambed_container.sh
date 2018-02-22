@@ -10,7 +10,7 @@ source $DREAMBED_DOCKER_SCRIPTS_DIR/Bash/common_vars.sh
 xhost +
 
 if [ "$USE_NVIDIA_DOCKER" = true ] ; then
-	sudo docker --runtime=nvidia run $DOCKER_ROOTEXEC_ARGS
+	sudo nvidia-docker exec $DOCKER_ROOTEXEC_ARGS
 else
-	sudo docker run $DOCKER_ROOTEXEC_ARGS
+	sudo docker exec $DOCKER_ROOTEXEC_ARGS
 fi
